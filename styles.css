@@ -342,6 +342,11 @@ section .banner {
     box-shadow: none;
 }
 
+#properties .content .box a:hover {
+    background-color: crimson;
+    letter-spacing: 1.8px;
+}
+
 #properties .content .box img {
     width: 100%;
     height: 300px;
@@ -789,6 +794,8 @@ footer .row .social a:hover {
     display: none;
 }
 
+/* SCROLL BUTTON */
+
 .top-scroll {
     position: fixed;
     bottom: 10px;
@@ -800,13 +807,13 @@ footer .row .social a:hover {
     border: 1px solid white;
     line-height: 72px;
     text-align: center;
-    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.top-scroll a {
-
+.top-scroll h1 {
+    font-size: 15px;
     color: white;
-    text-decoration: none;
 }
 
 .top-scroll:hover {
