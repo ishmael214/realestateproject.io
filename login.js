@@ -52,6 +52,10 @@ function slideShowFunc(index, arr) {
     }
 }
 
+
+
+
+
     const tidyFunc = () => {
         dotloopRemove();
         imgloop();
@@ -98,9 +102,14 @@ function slideShowFunc(index, arr) {
     dots[index].classList.add('dot-active');
     arr[index].style.display = 'block';
     }
+
+    
+
+    
     prevFunc();
     nextFunc();
     showSlides();
+    
 
 }
 
@@ -108,5 +117,4 @@ function slideShowFunc(index, arr) {
 
 
 slideShowFunc(showIndex, img);
-
 
